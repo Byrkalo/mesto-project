@@ -1,0 +1,25 @@
+.footer__copyright {
+    padding-left: 200px;
+    padding-bottom: 60px;
+    color: #545454;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__copyright {
+        padding-left: 72px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        max-width: 282px;
+        margin: 0 auto;
+        padding: 0;
+        padding-bottom: 36px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
