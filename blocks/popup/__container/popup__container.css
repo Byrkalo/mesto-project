@@ -2,9 +2,8 @@
     box-sizing: border-box;
     width: 430px;
     margin: 0 auto;
-    min-height: 330px;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     z-index: 3;
     position: relative;
 }

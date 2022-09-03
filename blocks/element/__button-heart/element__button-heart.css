@@ -11,7 +11,12 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
+.element__button-heart:hover {
+    opacity: .5;
+}
+
 .element__button-heart:active {
     background-image: url(../../../images/element/heart_active.svg);
+    opacity: 1;
 }
 

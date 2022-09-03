@@ -7,7 +7,7 @@
     <meta name="keywords" content="Путешествие Россия" />
     <meta name="author" content="Yandex Practicum" />
     <link rel="stylesheet" href="pages/index.css" />
-    <title>Mesto</title>
+    <title>Место</title>
   </head>
   <body class="page">
 
@@ -21,19 +21,19 @@
       <!---------------------------PROFILE--------------------------------------->
 
       <section class="profile">
-        <img src="images/Avatar.png" alt="Аватарка" class="profile__avatar" />
+        <img src="images/avatar.jpeg" alt="Аватарка" class="profile__avatar" />
         <div class="profile__info">
-          <p class="profile__name">Жак-Ив Кусто</p>
-          <button class="profile__edit-button"></button>
+          <h1 class="profile__name">Жак-Ив Кусто</h1>
+          <button class="profile__edit-button" type="submit"></button>
           <p class="profile__about">Исследователь океана</p>
         </div>
-        <button class="profile__add-button"></button>
+        <button class="profile__add-button" type="submit"></button>
       </section>
 
       <!---------------------------ELEMENTS---------------------------------------->
 
       <section class="elements">
-        <div class="element">
+        <article class="element">
           <img
             src="images/element/Karacaevo.jpg"
             alt="Карачаевск"
@@ -41,10 +41,10 @@
           />
           <div class="element__about">
             <h2 class="element__title">Карачаевск</h2>
-            <button class="element__button-heart"></button>
+            <button class="element__button-heart" type="submit"></button>
           </div>
-        </div>
-        <div class="element">
+        </article>
+        <article class="element">
           <img
             src="images/element/Elbrus.jpg"
             alt="Эльбрус"
@@ -52,10 +52,10 @@
           />
           <div class="element__about">
             <h2 class="element__title">Гора Эльбрус</h2>
-            <button class="element__button-heart"></button>
+            <button class="element__button-heart" type="submit"></button>
           </div>
-        </div>
-        <div class="element">
+        </article>
+        <article class="element">
           <img
             src="images/element/Dombai.jpg"
             alt="Домбай"
@@ -63,10 +63,10 @@
           />
           <div class="element__about">
             <h2 class="element__title">Домбай</h2>
-            <button class="element__button-heart"></button>
+            <button class="element__button-heart" type="submit"></button>
           </div>
-        </div>
-        <div class="element">
+        </article>
+        <article class="element">
           <img
             src="images/element/Elbrus.jpg"
             alt="Эльбрус"
@@ -74,10 +74,10 @@
           />
           <div class="element__about">
             <h2 class="element__title">Гора Эльбрус</h2>
-            <button class="element__button-heart"></button>
+            <button class="element__button-heart" type="submit"></button>
           </div>
-        </div>
-        <div class="element">
+        </article>
+        <article class="element">
           <img
             src="images/element/Dombai.jpg"
             alt="Домбай"
@@ -85,10 +85,10 @@
           />
           <div class="element__about">
             <h2 class="element__title">Домбай</h2>
-            <button class="element__button-heart"></button>
+            <button class="element__button-heart" type="submit"></button>
           </div>
-        </div>
-        <div class="element">
+        </article>
+        <article class="element">
           <img
             src="images/element/Karacaevo.jpg"
             alt="Карачаево-Черкесия"
@@ -96,9 +96,9 @@
           />
           <div class="element__about">
             <h2 class="element__title">Карачаево-Черкесия</h2>
-            <button class="element__button-heart"></button>
+            <button class="element__button-heart" type="submit"></button>
           </div>
-        </div>
+        </article>
       </section>
     </main>
 
@@ -110,29 +110,28 @@
 
     <!---------------------------POPUP---------------------------------------->
 
-    <div class="popup popup_opened">
+    <div class="popup">
       <div class="popup__container">
         <h2 class="popup__title">Редактировать профиль</h2>
-        <form class="popup__form" method="post">
+        <form class="popup__form" method="post" name="popup-edit">
           <fieldset class="popup__input-container">
             <input
               class="popup__input"
               type="text"
               name="name"
-              placeholder="Жак-Ив Кусто"
+              value="Жак-Ив Кусто"
             />
             <input
               class="popup__input"
               type="text"
               name="about"
-              placeholder="Исследователь океана"
+              value="Исследователь океана"
             />
-          </fieldset>
-          <fieldset class="popup__input-container">
             <input class="popup__submit" type="submit" value="Сохранить" />
           </fieldset>
+            
         </form>
-        <button class="popup__close-button"></button>
+        <button class="popup__close-button" type="submit"></button>
       </div>
     </div>
   </body>
