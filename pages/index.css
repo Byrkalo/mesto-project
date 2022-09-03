@@ -1,6 +1,6 @@
 /***************** VENDER *****************/
-@import url(../vender/normalize.css);
-@import url(../vender/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 
 /***************** PAGE *****************/
 @import url(../blocks/page/page.css);
