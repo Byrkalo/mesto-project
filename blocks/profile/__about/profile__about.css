@@ -3,5 +3,19 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    grid-area: about;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 880px) {
+    .profile__about {
+        width: 282px;
+        text-align: center;
+        margin-top: 14px;
+        margin-bottom: 36px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
 }

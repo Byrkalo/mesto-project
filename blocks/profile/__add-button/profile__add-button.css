@@ -10,13 +10,14 @@
     border: 2px solid #fff;
     transition: opacity .2s linear;
     cursor: pointer;
+    border-radius: 2px;
 }
 
 .profile__add-button:hover {
     opacity: .6;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 880px) {
     .profile__add-button {
         width: 282px;
         background-size: 16px 16px;
